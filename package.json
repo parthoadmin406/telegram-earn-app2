@@ -1,0 +1,16 @@
+{
+  "name": "telegram_ad_mini_app2",
+  "version": "1.0.0",
+  "description": "Telegram Mini App with AdOperator ads, points and bKash withdrawal",
+  "main": "backend/server.js",
+  "scripts": {
+    "start": "node backend/server.js",
+    "dev": "node backend/server.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.6.1",
+    "express": "^5.1.0",
+    "jsonwebtoken": "^9.0.2"
+  }
+}
